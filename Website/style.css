@@ -1,0 +1,37 @@
+:root{
+  --corFundo : rgb(152, 245, 164);
+  --corPrimaria : rgb(48, 158, 57);
+  --corSecundaria: rgb(77, 163, 77);
+  --corHover: rgb(255, 166, 0);
+}
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.menu{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.menu li{
+  list-style: none;
+  border-bottom: 2px solid var(--corPrimaria);
+}
+.menu li:hover {
+  border-bottom: 2px solid var(--corHover);
+}
+.menu a{
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: larger;
+}
+.mainPrimeiro{
+  width: 100%;
+  height: 500px;
+  background-color: var(--corFundo);
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
