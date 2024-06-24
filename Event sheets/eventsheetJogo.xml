@@ -1,0 +1,1015 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>eventsheetJogo</name>
+    <events>
+        <event-group description="" sid="310924679463244" title="layout">
+            <sub-events>
+                <event-block sid="853895253942855">
+                    <conditions>
+                        <condition id="0" name="On clicked" sid="549311001819123" type="começar" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="548748764552496" type="tutorialRApido">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="2" name="Set visible" sid="581525923788399" type="começar">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="366447961244722" type="detalhe123143413">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="560185731728706" type="detalhe1232301032">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="115057700778342" type="textoTutorial">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="521749499402115" type="textoTutorial2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="894694318887829">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="580989427020832" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="871354077747395" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="684945104813901" type="testeLoad">
+                            <param id="0" name="Opacity">90</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="642355911743067" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="691531395374201" type="testeLoad">
+                            <param id="0" name="Opacity">80</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="124897856312422" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="683219756688591" type="testeLoad">
+                            <param id="0" name="Opacity">70</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="280278865021033" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="691985797395226" type="testeLoad">
+                            <param id="0" name="Opacity">60</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="940090788583305" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="760821839890214" type="testeLoad">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="690333531263982" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="393101038938144" type="testeLoad">
+                            <param id="0" name="Opacity">40</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="657171060725887" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="856149930161116" type="testeLoad">
+                            <param id="0" name="Opacity">30</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="182548581676159" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="921349251649020" type="testeLoad">
+                            <param id="0" name="Opacity">20</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="186298597777497" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="690430966923191" type="testeLoad">
+                            <param id="0" name="Opacity">10</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="723670721376713" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="664629664047909" type="testeLoad">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="755743258848543">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="734823434487372" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botaoRolardad</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="434057459169729" type="txtValorDAdo">
+                    <param id="0" name="Text">str(floor(random(1, 7)))</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="369115178027028">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="327063716660356" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="991412812680496" type="jogador">
+                    <param id="0" name="Object">tile6</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="333327120351913">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="966097462723573" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="194273263154247" type="jogador">
+                    <param id="0" name="Object">tile5</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="619986898971787">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="149548280367190" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="395795419972292" type="jogador">
+                    <param id="0" name="Object">tile4</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="719371547665425">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="273858063403361" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="905486835240883" type="jogador">
+                    <param id="0" name="Object">tile3</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="768502026909751">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="135447660228018" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="669531374700968" type="jogador">
+                    <param id="0" name="Object">tile2</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="837514767457347">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="408738687864937" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="864965512818897" type="jogador">
+                    <param id="0" name="Object">tile7</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="530025355703211">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="181051879248333" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile8</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="155288660076812" type="jogador">
+                    <param id="0" name="Object">tile8</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="767418942777302">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="148124819056127" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="157818700308678" type="jogador">
+                    <param id="0" name="Object">tile9</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="878258788685296">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="109394886474106" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="575483363859926" type="jogador">
+                    <param id="0" name="Object">tile10</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="775573198371790">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="701366646943106" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile11</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="888205810424391" type="jogador">
+                    <param id="0" name="Object">tile11</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="121553474105913">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="445292517513364" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile12</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="765782564143863" type="jogador">
+                    <param id="0" name="Object">tile12</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="369443444342021">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="881829429717078" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile13</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="594292792545494" type="jogador">
+                    <param id="0" name="Object">tile13</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="504631373354277">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="272457677694345" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile14</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="978111440825268" type="jogador">
+                    <param id="0" name="Object">tile14</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="594603264940149">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="657254235144010" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile15</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="969217353514437" type="jogador">
+                    <param id="0" name="Object">tile15</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="221101110721957">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="264914836600101" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile16</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="809860022615158" type="jogador">
+                    <param id="0" name="Object">tile16</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="910568572205072">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="839519713816426" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile17</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="519617891973768" type="jogador">
+                    <param id="0" name="Object">tile17</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="232608985121464">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="959929360466226" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile18</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="639793960689388" type="jogador">
+                    <param id="0" name="Object">tile18</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="530098643414473">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="400477515316957" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile19</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="300536548206720" type="jogador">
+                    <param id="0" name="Object">tile19</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="469763883936803">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="366078031688200" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile20</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="536325846542940" type="jogador">
+                    <param id="0" name="Object">tile20</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="310384008835719">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="258027642869434" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile21</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="897250816322769" type="jogador">
+                    <param id="0" name="Object">tile21</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="817299711533685">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="107625884481767" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile22</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="938950580611396" type="jogador">
+                    <param id="0" name="Object">tile22</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="301748631944534">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="618124394243050" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile23</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="584059857363099" type="jogador">
+                    <param id="0" name="Object">tile23</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="817616285488394">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="814587682688510" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile24</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="925580665377970" type="jogador">
+                    <param id="0" name="Object">tile24</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="524733564563639">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="417631630725043" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile25</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="453893970399977" type="jogador">
+                    <param id="0" name="Object">tile25</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="936690094182228">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="607737750472880" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile26</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="511257395481035" type="jogador">
+                    <param id="0" name="Object">tile26</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="667299592695383">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="950061306959561" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile27</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="668744285838180" type="jogador">
+                    <param id="0" name="Object">tile27</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="155645848087751">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="603851613664060" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile28</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="696129712564324" type="jogador">
+                    <param id="0" name="Object">tile28</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="712439948700294">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="304112768411647" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile29</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="207426792589317" type="jogador">
+                    <param id="0" name="Object">tile29</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="648896928779927">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="964592435216921" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile30</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="222023321376526" type="jogador">
+                    <param id="0" name="Object">tile30</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="575769025164228">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="868144067596951" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile31</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="996425272507831" type="jogador">
+                    <param id="0" name="Object">tile31</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="209654065525437">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="802082564090937" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile32</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="608092304359564" type="jogador">
+                    <param id="0" name="Object">tile32</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="281490882945660">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="572335528311037" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile33</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="208673966063923" type="jogador">
+                    <param id="0" name="Object">tile33</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="631961256730388">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="286797457334930" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile34</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="301586906412808" type="jogador">
+                    <param id="0" name="Object">tile34</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="472979387019958">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="981042544578571" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile35</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="280749586776943" type="jogador">
+                    <param id="0" name="Object">tile35</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="256021009391059">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="665845418765290" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile36</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="457315104743348" type="jogador">
+                    <param id="0" name="Object">tile36</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="392159370840750">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="436645132655853" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="162052029802208" type="jogador">
+                    <param id="0" name="Object">tile37</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="534549497207584">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="699517217653859" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile38</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="284948308448236" type="jogador">
+                    <param id="0" name="Object">tile38</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="684359357793215">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="177064656729015" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="597252519252898" type="jogador">
+                    <param id="0" name="Object">tile39</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="460886387568677">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="419275237448952" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tile40</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="316186376822920" type="jogador">
+                    <param id="0" name="Object">tile40</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="240142421824548">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="755038906399045" type="jogador">
+                    <param id="0" name="Object">tile7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="336240631495678" type="Sprite4">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-3" name="Set position" sid="586539546251669" type="Sprite4">
+                    <param id="0" name="X">416</param>
+                    <param id="1" name="Y">224</param>
+                </action>
+                <action id="-3" name="Set position" sid="484082612960075" type="botaoANdarCAsa12">
+                    <param id="0" name="X">531</param>
+                    <param id="1" name="Y">381</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="956826281799980">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="153907404319046" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botaoANdarCAsa12</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="774921842681907" type="Sprite4">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="475564998969797" type="Sprite4">
+                    <param id="0" name="X">-100</param>
+                    <param id="1" name="Y">-100</param>
+                </action>
+                <action id="-3" name="Set position" sid="512418878721860" type="botaoANdarCAsa12">
+                    <param id="0" name="X">-100</param>
+                    <param id="1" name="Y">-100</param>
+                </action>
+                <action id="-4" name="Set position to another object" sid="881370049293363" type="jogador">
+                    <param id="0" name="Object">tile12</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="496769985990944">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="273120560034915" type="jogador">
+                    <param id="0" name="Object">tile31</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="323413784297847" type="popupescada">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-3" name="Set position" sid="453299087354347" type="popupescada">
+                    <param id="0" name="X">416</param>
+                    <param id="1" name="Y">224</param>
+                </action>
+                <action id="-3" name="Set position" sid="168983579477484" type="botaoANdarCAsa13">
+                    <param id="0" name="X">477</param>
+                    <param id="1" name="Y">381</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="134595905918684">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="633752514243203" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botaoANdarCAsa13</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="300818078603251" type="popupescada">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="714402594181626" type="botaoANdarCAsa13">
+                    <param id="0" name="X">-100</param>
+                    <param id="1" name="Y">-100</param>
+                </action>
+                <action id="-3" name="Set position" sid="428277772499118" type="popupescada">
+                    <param id="0" name="X">-100</param>
+                    <param id="1" name="Y">-100</param>
+                </action>
+                <action id="-4" name="Set position to another object" sid="835425361293033" type="jogador">
+                    <param id="0" name="Object">tile34</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="517298478460825">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="820536803666392" type="jogador">
+                    <param id="0" name="Object">tile23</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="514649052931789" type="popupescada2">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-3" name="Set position" sid="419320983798790" type="popupescada2">
+                    <param id="0" name="X">416</param>
+                    <param id="1" name="Y">224</param>
+                </action>
+                <action id="-3" name="Set position" sid="935283596446166" type="botaoANdarCAsa14">
+                    <param id="0" name="X">531</param>
+                    <param id="1" name="Y">381</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="648185136462362">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="367476950892685" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botaoANdarCAsa14</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="409866659478840" type="popupescada2">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="917693697596564" type="popupescada2">
+                    <param id="0" name="X">-100</param>
+                    <param id="1" name="Y">-100</param>
+                </action>
+                <action id="-3" name="Set position" sid="799349932119703" type="botaoANdarCAsa14">
+                    <param id="0" name="X">-100</param>
+                    <param id="1" name="Y">-100</param>
+                </action>
+                <action id="-4" name="Set position to another object" sid="941881881531710" type="jogador">
+                    <param id="0" name="Object">tile27</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="443950037190708">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="396160320545317" type="jogador">
+                    <param id="0" name="Object">tile40</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="144617951222461" type="System">
+                    <param id="0" name="Layout">ganhou</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="840034649529953">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="348641995532846" type="jogador">
+                    <param id="0" name="Object">tile17</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="349335906671518" type="popupSerpente1">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-3" name="Set position" sid="515985213850815" type="popupSerpente1">
+                    <param id="0" name="X">416</param>
+                    <param id="1" name="Y">224</param>
+                </action>
+                <action id="-3" name="Set position" sid="484565430370447" type="botaoVOltarcasa">
+                    <param id="0" name="X">525</param>
+                    <param id="1" name="Y">381</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="781937520578848">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="635624909396847" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botaoVOltarcasa</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="431893118916981" type="popupSerpente1">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="317964891809076" type="popupSerpente1">
+                    <param id="0" name="X">-100</param>
+                    <param id="1" name="Y">-100</param>
+                </action>
+                <action id="-3" name="Set position" sid="969659275563058" type="botaoVOltarcasa">
+                    <param id="0" name="X">-100</param>
+                    <param id="1" name="Y">-100</param>
+                </action>
+                <action id="-4" name="Set position to another object" sid="717567649018412" type="jogador">
+                    <param id="0" name="Object">tile3</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="348711775851854">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="815438195320306" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="635133350135995" type="Sprite4">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="197716578774477" type="popupescada2">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="464592416341433" type="popupescada">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="669354481226567" type="popupSerpente1">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="797237569735381" type="popupSerpente2">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="646791124625007" type="popupSerpente3">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="413330230631110">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="806658396792662" type="jogador">
+                    <param id="0" name="Object">tile25</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="571618985086048" type="popupSerpente3">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-3" name="Set position" sid="980849464553000" type="popupSerpente3">
+                    <param id="0" name="X">416</param>
+                    <param id="1" name="Y">224</param>
+                </action>
+                <action id="-3" name="Set position" sid="428607835667533" type="botaoVOltarcasa3">
+                    <param id="0" name="X">544</param>
+                    <param id="1" name="Y">384</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="345380660467717">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="427912814649462" type="jogador">
+                    <param id="0" name="Object">tile38</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="720876010717929" type="popupSerpente2">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-3" name="Set position" sid="536555940995817" type="popupSerpente2">
+                    <param id="0" name="X">416</param>
+                    <param id="1" name="Y">224</param>
+                </action>
+                <action id="-3" name="Set position" sid="628736090304149" type="botaoVOltarcasa2">
+                    <param id="0" name="X">544</param>
+                    <param id="1" name="Y">384</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="816832786281025">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="924054271503854" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botaoVOltarcasa2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="485235466437043" type="popupSerpente2">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="134438229143381" type="popupSerpente2">
+                    <param id="0" name="X">-100</param>
+                    <param id="1" name="Y">-100</param>
+                </action>
+                <action id="-3" name="Set position" sid="475820347265823" type="botaoVOltarcasa2">
+                    <param id="0" name="X">-100</param>
+                    <param id="1" name="Y">-100</param>
+                </action>
+                <action id="-4" name="Set position to another object" sid="174279809737737" type="jogador">
+                    <param id="0" name="Object">tile20</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="581842044095516">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="537317472543397" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botaoVOltarcasa3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="159947999605525" type="popupSerpente3">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="322958012330429" type="popupSerpente3">
+                    <param id="0" name="X">-100</param>
+                    <param id="1" name="Y">-100</param>
+                </action>
+                <action id="-3" name="Set position" sid="365784071633215" type="botaoVOltarcasa3">
+                    <param id="0" name="X">-100</param>
+                    <param id="1" name="Y">-100</param>
+                </action>
+                <action id="-4" name="Set position to another object" sid="467958215431180" type="jogador">
+                    <param id="0" name="Object">tile11</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>eventsheetMenu</name>
+    <events>
+        <event-block sid="940760064025152">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="772489871528340" type="Mouse">
+                    <param id="0" name="Object">botaoJogar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="553298431632724" type="botaoJogar">
+                    <param id="0" name="Width">139</param>
+                    <param id="1" name="Height">43</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="558860800190936">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="731450994576360" type="Mouse">
+                    <param id="0" name="Object">botaoJogar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="683443729455784" type="botaoJogar">
+                    <param id="0" name="Width">134</param>
+                    <param id="1" name="Height">38</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="593401058357797">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="553126818192326" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botaoJogar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="179785065116041" type="System">
+                    <param id="0" name="Layout">layoutJogo</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="989604193897956">
+            <conditions>
+                <condition id="17" name="On tap object" sid="351782147815401" type="Touch">
+                    <param id="0" name="Object">botaoJogar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="777535941533808" type="System">
+                    <param id="0" name="Layout">layoutJogo</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
